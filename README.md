@@ -34,7 +34,7 @@ g++ main.cpp -O2 -Wall -o main.o -I Graphify -std=c++17
 
 ## Contents
 
-# Datatypes and Main Properties
+### Datatypes and Main Properties
 1. Graph (unweighted)
     1. Out-degree/In-degree
     2. Initialize graph as complete 
@@ -61,7 +61,7 @@ g++ main.cpp -O2 -Wall -o main.o -I Graphify -std=c++17
 6. Weighted Adjacency Matrix
     1. Print 
   
-# Graph Traverals
+### Graph Traverals
 1. Traversals (Unweighted)
     1. Valid traversal methods
     2. Number of connected components
