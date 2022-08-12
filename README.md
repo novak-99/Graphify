@@ -63,18 +63,18 @@ g++ main.cpp -O2 -Wall -o main.o -I Graphify -std=c++17
   
 # Graph Traverals
 1. Traversals (Unweighted)
-  a. Valid traversal methods
-  b. Number of connected components
-  c. Shortest path between a start & end node
-  d. Maximum component
-  e. Minimum component 
-  f. Number of bridges 
-  g. Number of articulation points
-  h. Top sort (traversal pts as input)
-  i. Kahn top sort
-  j. Tarjan's strongly connected components
-  k. Kosaraju's strongly connected components
-  l. Is DAG
+    a. Valid traversal methods
+    b. Number of connected components
+    c. Shortest path between a start & end node
+    d. Maximum component
+    e. Minimum component 
+    f. Number of bridges 
+    g. Number of articulation points
+    h. Top sort (traversal pts as input)
+    i. Kahn top sort
+    j. Tarjan's strongly connected components
+    k. Kosaraju's strongly connected components
+    l. Is DAG
 2. Weighted Traversals
   a. Valid traversal methods 
   b. DAG shortest path
