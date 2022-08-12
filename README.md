@@ -90,5 +90,5 @@ g++ main.cpp -O2 -Wall -o main.o -I Graphify -std=c++17
 3. Flow Traversals
     1. Valid traversal methods
     2. Ford-Fulkerson maximum flow 
-      - Edmonds-Karp flag
+        - Edmonds-Karp flag
     3. Dinic maximum flow
