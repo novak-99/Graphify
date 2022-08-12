@@ -36,59 +36,59 @@ g++ main.cpp -O2 -Wall -o main.o -I Graphify -std=c++17
 
 # Datatypes and Main Properties
 1. Graph (unweighted)
-  a. Out-degree/In-degree
-  b. Initialize graph as complete 
-  c. Transpose 
-  d. Convert to edge list
-  e. Check if directed 
-  f. Check if bi-partite (2-colorable)
-  g. Check if Eulerian circut exists 
-  h. Check if Eulerian path exists
+    1. Out-degree/In-degree
+    2. Initialize graph as complete 
+    3. Transpose 
+    4. Convert to edge list
+    5. Check if directed 
+    6. Check if bi-partite (2-colorable)
+    7. Check if Eulerian circut exists 
+    8. Check if Eulerian path exists
 2. Weighted Graph
-  a. Out-degree/In-degree
-  b. Initialize graph as complete
-  c. Transpose
-  d. Convert to Graph (unweighted), weighted adjacency matrix, weighted edge list
+    1. Out-degree/In-degree
+    2. Initialize graph as complete
+    3. Transpose
+    4. Convert to Graph (unweighted), weighted adjacency matrix, weighted edge list
 3. Flow Graph
-  a. In-degree/Out-degree
-  b. Transpose
-  c. Is full
+    1. In-degree/Out-degree
+    2. Transpose
+    3. Is full
 4. Edge List (unweighted)
   a. Combine with another edge list
 5. Weighted Edge List
-  a. Combine with another edge list
-  b. Minimum edge weight
+    1. Combine with another edge list
+    2. Minimum edge weight
 6. Weighted Adjacency Matrix
-  a. Print 
+    1. Print 
   
 # Graph Traverals
 1. Traversals (Unweighted)
-  1. Valid traversal methods
-  2. Number of connected components
-  3. Shortest path between a start & end node
-  4. Maximum component
-  5. Minimum component 
-  6. Number of bridges 
-  7. Number of articulation points
-  8. Top sort (traversal pts as input)
-  9. Kahn top sort
-  10. Tarjan's strongly connected components
-  11. Kosaraju's strongly connected components
-  12. Is DAG
+    1. Valid traversal methods
+    2. Number of connected components
+    3. Shortest path between a start & end node
+    4. Maximum component
+    5. Minimum component 
+    6. Number of bridges 
+    7. Number of articulation points
+    8. Top sort (traversal pts as input)
+    9. Kahn top sort
+    10. Tarjan's strongly connected components
+    11. Kosaraju's strongly connected components
+    12. Is DAG
 2. Weighted Traversals
-  a. Valid traversal methods 
-  b. DAG shortest path
-  c. DAG longest path
-  d. Djikstra's shortest path
-  e. Alpha start shortest path
-  f. Bellman-Ford shortest path
-  g. Floyd-Warshall shortest path
-  h. Johnson shortest path
-  i. Travelling salesman problem
-  j. Kruskal minimum spanning tree
-  k. Prim minimum spanning tree
+    1. Valid traversal methods 
+    2. DAG shortest path
+    3. DAG longest path
+    4. Djikstra's shortest path
+    5. Alpha start shortest path
+    6. Bellman-Ford shortest path
+    7. Floyd-Warshall shortest path
+    8. Johnson shortest path
+    9. Travelling salesman problem
+    10. Kruskal minimum spanning tree
+    11. Prim minimum spanning tree
 3. Flow Traversals
-  a. Valid traversal methods
-  b. Ford-Fulkerson maximum flow 
-    - Edmonds-Karp flag
-  c. Dinic maximum flow
+    1. Valid traversal methods
+    2. Ford-Fulkerson maximum flow 
+      - Edmonds-Karp flag
+    3. Dinic maximum flow
